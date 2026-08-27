@@ -11,3 +11,4 @@ __pycache__/
 # Misc
 *.bak
 .DS_Store
+.pytest_cache/

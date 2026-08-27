@@ -30,7 +30,7 @@ mcp = MCPServer(
     description="Live Kp index, 3-day geomagnetic forecast, solar flare activity "
                 "and aurora visibility, powered by NOAA SWPC data.",
     website_url="https://solarstorm.today",
-    version="1.0.0",
+    version="1.0.3",
 )
 
 
