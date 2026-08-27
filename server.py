@@ -69,7 +69,11 @@ def _parse_kp(raw) -> list[dict]:
             t, kp, observed = row[0], row[1], (row[2] or "")
         else:
             t = row.get("time_tag") or row.get("datetime")
-            kp = row.get("kp_index", row.get("estimated_kp", row.get("kp")))
+            # NOAA spells this key differently per product: the forecast
+            # feed uses "kp", the observed one "Kp". Match case-insensitively
+            # so a rename upstream degrades to missing data, not silent zero rows.
+            kp = next((row[k] for want in ("kp_index", "estimated_kp", "kp")
+                       for k in row if k.lower() == want), None)
             observed = row.get("observed") or row.get("status") or ""
         ts = _parse_time(t)
         try:
