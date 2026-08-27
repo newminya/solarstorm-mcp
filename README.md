@@ -1,7 +1,7 @@
 # solarstorm.today MCP server
 
-[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-today.solarstorm%2Fsolarstorm-2b7fff)](https://registry.modelcontextprotocol.io/v0/servers/today.solarstorm%2Fsolarstorm/versions/latest)
-[![Registry version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.modelcontextprotocol.io%2Fv0%2Fservers%2Ftoday.solarstorm%252Fsolarstorm%2Fversions%2Flatest&query=%24.server.version&label=registry&prefix=v&color=2b7fff)](https://registry.modelcontextprotocol.io/v0/servers/today.solarstorm%2Fsolarstorm/versions/latest)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-today.solarstorm%2Fsolarstorm-2b7fff)](https://registry.modelcontextprotocol.io/v0.1/servers/today.solarstorm%2Fsolarstorm/versions/latest)
+[![Registry version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.modelcontextprotocol.io%2Fv0.1%2Fservers%2Ftoday.solarstorm%252Fsolarstorm%2Fversions%2Flatest&query=%24.server.version&label=registry&prefix=v&color=2b7fff)](https://registry.modelcontextprotocol.io/v0.1/servers/today.solarstorm%2Fsolarstorm/versions/latest)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776ab)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Hosted](https://img.shields.io/badge/hosted-mcp.solarstorm.today-f5a524)](https://solarstorm.today/mcp/)
