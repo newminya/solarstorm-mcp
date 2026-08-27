@@ -1,6 +1,7 @@
 # solarstorm.today MCP server
 
 [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-today.solarstorm%2Fsolarstorm-2b7fff)](https://registry.modelcontextprotocol.io/v0/servers?search=solarstorm)
+[![Registry version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.modelcontextprotocol.io%2Fv0%2Fservers%3Fsearch%3Dsolarstorm%26version%3Dlatest&query=%24.servers%5B0%5D.server.version&label=registry&prefix=v&color=2b7fff)](https://registry.modelcontextprotocol.io/v0/servers?search=solarstorm&version=latest)
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776ab)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Hosted](https://img.shields.io/badge/hosted-mcp.solarstorm.today-f5a524)](https://solarstorm.today/mcp/)
