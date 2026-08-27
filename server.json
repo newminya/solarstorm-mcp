@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "today.solarstorm/solarstorm",
+  "description": "Space weather: Kp index, NOAA 3-day geomagnetic forecast, solar flares, aurora visibility.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.solarstorm.today/mcp"
+    }
+  ]
+}
